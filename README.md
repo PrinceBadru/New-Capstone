@@ -2,6 +2,8 @@
 
 ## Live server - https://princebadru.github.io/New-Capstone/
 
+## Loom video - https://www.loom.com/share/12b0f256e8b74d0c8cddd0c7f21cbc41
+
 ## General requirements
 Make sure that there are no linter errors.
 Make sure that you used correct GitHub flow.

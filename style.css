@@ -1,200 +1,198 @@
-  .full-body {
-    background-image: url(./images/bitcoin-3089728__340.webp);
-    background-repeat: no-repeat;
-    background-position: cover;
-  }
+.full-body {
+  background-image: url(./images/bitcoin-3089728__340.webp);
+  background-repeat: no-repeat;
+}
 
-  .intro-section {
-    margin-top: 60px;
-    font-family: sans-serif;
-  }
+.intro-section {
+  margin-top: 60px;
+  font-family: sans-serif;
+}
 
-  .crypto-image {
-    display:none;
-  }
+.crypto-image {
+  display: none;
+}
 
-  .footer1 {
-    display: none;
-  }
-  
-  .navigation{
-    display: none;
-  }
+.footer1 {
+  display: none;
+}
 
-  .popup {
-    width: 95vw;
-    height: 50vh;
-    background: white;
-    position:absolute;
-    border-radius: 10px;
-    visibility: hidden;
-  }
+.navigation {
+  display: none;
+}
 
-  .closepopup {
-    margin-left:5px ;
-    margin-top:10px;
-  }
+.popup {
+  width: 95vw;
+  height: 50vh;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  visibility: hidden;
+}
 
-  .openpopup {
-    visibility: visible;
-  }
+.closepopup {
+  margin-left: 5px;
+  margin-top: 10px;
+}
 
-  .popup li {
-    list-style: none;
-    font-size: 60px;
-  }
+.openpopup {
+  visibility: visible;
+}
 
-  .ico-section {
-    font-family: sans-serif;
-    display: fle;
-  }
+.popup li {
+  list-style: none;
+  font-size: 60px;
+}
 
-  .program-li {
-    display: flex;
-  }
+.ico-section {
+  font-family: sans-serif;
+}
 
-  .program-img {
-    width: 50px;
-    height: 50px;
-  }
+.program-li {
+  display: flex;
+}
 
-  .crypto-text {
-    margin-bottom: -12px;
-    color: white;
-  }
+.program-img {
+  width: 50px;
+  height: 50px;
+}
 
-  .main-section {
-    background-image: url(./images/pexels-photo-844124.jpeg);
-    background-repeat: no-repeat;
-    background-position: cover;
-    width: 100vw;
-    color: aliceblue;
-    margin-left: 0;
-    font-family: sans-serif;
-  }
-  .speaker-li {
-    display: flex;
-    gap: 20px;
-  }
+.crypto-text {
+  margin-bottom: -12px;
+  color: white;
+}
 
-  .speaker-img {
-    height: 150px;
-    width: 150px;
-  }
+.main-section {
+  background-image: url(./images/pexels-photo-844124.jpeg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  color: aliceblue;
+  margin-left: 0;
+  font-family: sans-serif;
+}
 
-  .ico-button {
-    display: flex;
-    justify-content: center;
-    height: 50px;
-  }
+.speaker-li {
+  display: flex;
+  gap: 20px;
+}
 
-  .speaker-class {
-    display: flex;
-    gap: 20px;
-  }
-  .ceo-text {
-    color: orangered;
-  }
+.speaker-img {
+  height: 150px;
+  width: 150px;
+}
 
-  .speaker-line {
-    margin-left: 0;
-    width: 20px;
-  }
+.ico-button {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
 
-  .submit{
-    color:orange;
-    margin-top: 20px;
-  }
+.speaker-class {
+  display: flex;
+  gap: 20px;
+}
 
-  .speaker-line1 {
-    background-color: orangered;
-    width: 30px;
-    height: 2px;
-    border: none;
-  }
+.ceo-text {
+  color: orangered;
+}
 
-  .more-button {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-  }
+.speaker-line {
+  margin-left: 0;
+  width: 20px;
+}
 
-  .more-width {
-    width: 300px;
-    background-color: white;
-  }
+.submit {
+  color: orange;
+  margin-top: 20px;
+}
 
-  .ico-pic {
-    width: 100vw;
-    height: 30vh;
-  }
+.speaker-line1 {
+  background-color: orangered;
+  width: 30px;
+  height: 2px;
+  border: none;
+}
 
-  .past-ico {
-    background-image: url(./images/20180810.jpg);
-    background-repeat: no-repeat;
-    height: 30vh;
-    width: 100vw;
-  }
+.more-button {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
 
-  .past-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    -webkit-text-fill-color: aliceblue;
-  }
+.more-width {
+  width: 300px;
+  background-color: white;
+}
 
-  .past-text1 {
-    background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
-    height: 30vh;
-    width: 100vw;
-    -webkit-text-fill-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
+.ico-pic {
+  width: 100vw;
+  height: 30vh;
+}
 
-  .sponsors-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 30px;
-    flex-wrap: wrap;
-  }
+.past-ico {
+  background-image: url(./images/20180810.jpg);
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100vw;
+}
 
-  .partners-class {
-    background-color: black;
-    color: grey;
-    width: 100vw;
-  }
+.past-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-fill-color: aliceblue;
+}
 
-  .footer-class {
-    display: flex;
-    
-  }
+.past-text1 {
+  background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
+  height: 30vh;
+  width: 100vw;
+  -webkit-text-fill-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-  .footer-img {
-    width: 150px;
-    height: 150px;
-  }
+.sponsors-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 30px;
+  flex-wrap: wrap;
+}
 
-  .partners {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .speaker-section {
-    font-family: sans-serif;
-    justify-content: center;
-  }
+.partners-class {
+  background-color: black;
+  color: grey;
+  width: 100vw;
+}
 
-  .image-footer {
-    height: 200px;
-    width: 200px;
-  }
+.footer-class {
+  display: flex;
+}
+
+.footer-img {
+  width: 150px;
+  height: 150px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+}
+
+.speaker-section {
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.image-footer {
+  height: 200px;
+  width: 200px;
+}
 
 @media screen and (min-width: 769px) {
   .crypto-text {
@@ -209,7 +207,6 @@
     color: black;
     background-image: url(./images/pexels-simon-berger-1323550.jpg);
     background-repeat: no-repeat;
-    background-position: cover;
     height: 60vh;
     width: 100vw;
   }
@@ -217,6 +214,10 @@
   .about-heading {
     color: orangered;
     margin-bottom: 50px;
+  }
+
+  .submit {
+    width: 300px;
   }
 
   .crypto-words {
@@ -241,8 +242,9 @@
   }
 
   .past-ico {
-    background-image: none;
-    background-repeat: no-repeat; 
+    background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .past-ico1 {
@@ -255,14 +257,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    -webkit-text-fill-color: black;
-    
+    -webkit-text-fill-color: rgb(241, 127, 127);
   }
 
   .past-text1 {
     background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
     background-repeat: no-repeat;
-
     -webkit-text-fill-color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -271,9 +271,7 @@
   }
 
   .previous-ico {
-    display: fle;
     gap: 20px;
-    
   }
 
   .partners-class {
@@ -293,7 +291,6 @@
     margin-bottom: -50px;
     background-color: black;
     color: white;
-    margin-top: 30;
   }
 
   .footer-image {
@@ -303,21 +300,22 @@
   }
 
   .crypto-image {
-    position:;
-    height: 60px;
-    
+    display: block;
+    height: 150px;
+    width: 150px;
   }
 
-  .crypto-image:hover{
+  .crypto-image:hover {
     scale: 2;
   }
 
   .navigation {
     display: flex;
     gap: 60px;
-    position:sticky;
-    justify-content: space-betwee;
+    position: sticky;
+    justify-content: flex-end;
   }
+
   .main-prog {
     display: flex;
     flex-direction: row;
@@ -337,22 +335,9 @@
     margin-bottom: 10px;
   }
 
-  .more-button {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-  }
-
   .speaker-line {
     margin-left: 0;
     width: 20px;
-  }
-
-  .button-width {
-    width: 300px;
-    background-color: orangered;
-    border: none;
-    margin-bottom: 10px;
   }
 
   .ico-pic {
@@ -401,27 +386,20 @@
   .nav-text {
     margin-left: 600px;
     display: flex;
-    gap:20px;
-    
+    gap: 20px;
   }
 
   .ico-words {
     width: 300px;
-    
   }
 
   .ico-title {
-    color:rgb(154, 50, 12);
+    color: rgb(154, 50, 12);
     font-size: 60px;
-    
-  }
-
-  .crypto-image {
-    dis
   }
 
   .full-body {
-    background-image:none;
+    background-image: none;
   }
 
   .main-section {
