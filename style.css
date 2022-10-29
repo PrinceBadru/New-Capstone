@@ -66,7 +66,6 @@
   background-repeat: no-repeat;
   width: 100vw;
   color: aliceblue;
-
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -174,7 +173,7 @@
   background-color: black;
   color: grey;
   width: 100vw;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer-class {
@@ -216,7 +215,7 @@
     background-repeat: no-repeat;
     height: 60vh;
     width: 100vw;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .about-heading {
@@ -225,7 +224,7 @@
   }
 
   .submit {
-    color:aliceblue;
+    color: aliceblue;
     width: 300px;
   }
 
@@ -257,13 +256,8 @@
     width: 600px;
   }
 
-  
-
-  
- 
   .previous-ico {
     display: flex;
-    
   }
 
   .partners-class {
@@ -283,7 +277,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -50px;
-    margin-top: 0px;
+    margin-top: 0;
     background-color: black;
     color: white;
     width: 100vw;
@@ -385,7 +379,6 @@
     display: flex;
     align-items: flex-start;
     gap: 80px;
-
   }
 
   .ico-words {
@@ -416,7 +409,6 @@
     justify-content: space-between;
     list-style: none;
     flex-wrap: wrap;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
-
 }
