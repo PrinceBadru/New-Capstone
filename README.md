@@ -15,7 +15,8 @@
 
 [Live Demo Link](https://princebadru.github.io/New-Capstone/)
 
-## Loom video - https://www.loom.com/share/12b0f256e8b74d0c8cddd0c7f21cbc41
+## Loom video (if available)
+[Loom Link](https://www.loom.com/share/12b0f256e8b74d0c8cddd0c7f21cbc41)
 
 ## Getting Started
 
