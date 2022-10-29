@@ -62,7 +62,7 @@
 }
 
 .main-section {
-  background-color: #282B32;
+  background-color: #282b32;
   width: 100vw;
   color: aliceblue;
   font-family: sans-serif;
@@ -364,10 +364,10 @@
   }
 
   .card {
-    gap:0px;
+    gap: 0;
     width: 100px;
     border: 4px white;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
   }
 
   .card-flex {
@@ -393,16 +393,14 @@
   }
 
   .ico-words {
-    margin-left: 100px
-    
+    margin-left: 100px;
   }
 
   .ico-title {
-
     margin-left: -100px;
     color: rgb(154, 50, 12);
     font-size: 60px;
-    width:1000px
+    width: 1000px;
   }
 
   .contact {
