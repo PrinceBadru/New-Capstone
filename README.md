@@ -1,52 +1,74 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # First Capstone
 
-## Live server - https://princebadru.github.io/New-Capstone/
+> Description the project.
+
+
+## Built With
+
+- Major languages
+- Frameworks
+- Technologies used
+
+## Live Demo (if available)
+
+[Live Demo Link](https://princebadru.github.io/New-Capstone/)
 
 ## Loom video - https://www.loom.com/share/12b0f256e8b74d0c8cddd0c7f21cbc41
 
-## General requirements
-Make sure that there are no linter errors.
-Make sure that you used correct GitHub flow.
-Make sure that you documented your work in a professional way.
+## Getting Started
 
-## HTML/CSS & JavaScript requirements
-Follow our list of best practices for HTML & CSS.
-Follow our list of best practices for JavaScript.
-## Project requirements
-You should personalize the content of your page. Choose a topic that is different than the one in the original design.
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-You should follow these design guidelines, including:
 
-Colors.
-Typography: font face, size and weight (we suggest using Lato as it is a free font similar to the one used in the original design).
-Layout: composition and space between elements.
+To get a local copy up and running follow these simple example steps.
 
-## The pages should look almost identical to the original design. Small adjustments like text or image changes are acceptable.
+### Prerequisites
 
-## You can use a CSS framework (for example Bootstrap) for styling, if you want to.
+### Setup
 
-## You should build only these 2 pages:
+### Install
 
-The home page.
-The about page.
-Each of these pages should have versions for 2 different screen sizes:
+### Usage
 
-Mobile: up to 768px wide.
-Desktop: 768px or wider.
-Interactions
+### Run tests
 
-## Links
-The home page should have a link in the menu to the about page.
-The logo in the header links to the home page.
-Mobile menu
-When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
-There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
-The mobile menu should have a close (X) button that closes the menu.
-## Dynamic page
+### Deployment
 
-The section "Featured speakers" should be created dynamically in JavaScript.
-You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
-Original design idea by Cindy Shin in Behance.
 
-The Creative Commons license of the design requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
 
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@PrinceBadru](https://github.com/PrinceBadru)
+- Twitter: [@NdawulaBadru](https://twitter.com/BadruNdawula)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- ### Original design idea by **Cindy Shin in Behance**, in association with the Creative Commons [license](./CC.md) of the design.
+
+## 📝 License
+
+This project is [MIT](LICENSE.md) licensed.
+
+
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
