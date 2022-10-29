@@ -1,200 +1,203 @@
-  .full-body {
-    background-image: url(./images/bitcoin-3089728__340.webp);
-    background-repeat: no-repeat;
-    background-position: cover;
-  }
+.full-body {
+  background-image: url(./images/bitcoin-3089728__340.webp);
+  background-repeat: no-repeat;
+}
 
-  .intro-section {
-    margin-top: 60px;
-    font-family: sans-serif;
-  }
+.intro-section {
+  margin-top: 60px;
+  font-family: sans-serif;
+}
 
-  .crypto-image {
-    display:none;
-  }
+.crypto-image {
+  display: none;
+}
 
-  .footer1 {
-    display: none;
-  }
-  
-  .navigation{
-    display: none;
-  }
+.footer1 {
+  display: none;
+}
 
-  .popup {
-    width: 95vw;
-    height: 50vh;
-    background: white;
-    position:absolute;
-    border-radius: 10px;
-    visibility: hidden;
-  }
+.navigation {
+  display: none;
+}
 
-  .closepopup {
-    margin-left:5px ;
-    margin-top:10px;
-  }
+.popup {
+  width: 95vw;
+  height: 50vh;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  visibility: hidden;
+}
 
-  .openpopup {
-    visibility: visible;
-  }
+.closepopup {
+  margin-left: 5px;
+  margin-top: 10px;
+}
 
-  .popup li {
-    list-style: none;
-    font-size: 60px;
-  }
+.openpopup {
+  visibility: visible;
+}
 
-  .ico-section {
-    font-family: sans-serif;
-    display: fle;
-  }
+.popup li {
+  list-style: none;
+  font-size: 60px;
+}
 
-  .program-li {
-    display: flex;
-  }
+.ico-section {
+  font-family: sans-serif;
+}
 
-  .program-img {
-    width: 50px;
-    height: 50px;
-  }
+.program-li {
+  display: flex;
+}
 
-  .crypto-text {
-    margin-bottom: -12px;
-    color: white;
-  }
+.program-img {
+  width: 50px;
+  height: 50px;
+}
 
-  .main-section {
-    background-image: url(./images/pexels-photo-844124.jpeg);
-    background-repeat: no-repeat;
-    background-position: cover;
-    width: 100vw;
-    color: aliceblue;
-    margin-left: 0;
-    font-family: sans-serif;
-  }
-  .speaker-li {
-    display: flex;
-    gap: 20px;
-  }
+.crypto-text {
+  margin-bottom: -12px;
+  color: white;
+}
 
-  .speaker-img {
-    height: 150px;
-    width: 150px;
-  }
+.main-section {
+  background-color: #282b32;
+  width: 100vw;
+  color: aliceblue;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
 
-  .ico-button {
-    display: flex;
-    justify-content: center;
-    height: 50px;
-  }
+.speaker-li {
+  display: flex;
+  gap: 20px;
+}
 
-  .speaker-class {
-    display: flex;
-    gap: 20px;
-  }
-  .ceo-text {
-    color: orangered;
-  }
+.speaker-img {
+  height: 150px;
+  width: 150px;
+}
 
-  .speaker-line {
-    margin-left: 0;
-    width: 20px;
-  }
+.ico-button {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
 
-  .submit{
-    color:orange;
-    margin-top: 20px;
-  }
+.speaker-class {
+  display: flex;
+  gap: 20px;
+}
 
-  .speaker-line1 {
-    background-color: orangered;
-    width: 30px;
-    height: 2px;
-    border: none;
-  }
+.ceo-text {
+  color: orangered;
+}
 
-  .more-button {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-  }
+.speaker-line {
+  margin-left: 0;
+  width: 20px;
+}
 
-  .more-width {
-    width: 300px;
-    background-color: white;
-  }
+.submit {
+  color: orange;
+  margin-top: 20px;
+}
 
-  .ico-pic {
-    width: 100vw;
-    height: 30vh;
-  }
+.speaker-line1 {
+  background-color: orangered;
+  width: 30px;
+  height: 2px;
+  border: none;
+}
 
-  .past-ico {
-    background-image: url(./images/20180810.jpg);
-    background-repeat: no-repeat;
-    height: 30vh;
-    width: 100vw;
-  }
+.more-button {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
 
-  .past-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    -webkit-text-fill-color: aliceblue;
-  }
+.more-width {
+  width: 300px;
+  background-color: white;
+}
 
-  .past-text1 {
-    background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
-    height: 30vh;
-    width: 100vw;
-    -webkit-text-fill-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
+.ico-pic {
+  width: 100vw;
+  height: 30vh;
+}
 
-  .sponsors-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 30px;
-    flex-wrap: wrap;
-  }
+.past-ico {
+  background-image: url(./images/20180810.jpg);
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100vw;
+}
 
-  .partners-class {
-    background-color: black;
-    color: grey;
-    width: 100vw;
-  }
+.past-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-fill-color: aliceblue;
+}
 
-  .footer-class {
-    display: flex;
-    
-  }
+.past-text1 {
+  background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
+  height: 30vh;
+  width: 100vw;
+  -webkit-text-fill-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-  .footer-img {
-    width: 150px;
-    height: 150px;
-  }
+.sponsors-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 80px;
+  flex-wrap: wrap;
+}
 
-  .partners {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .speaker-section {
-    font-family: sans-serif;
-    justify-content: center;
-  }
+.partners-class {
+  background-color: black;
+  color: grey;
+  width: 100vw;
+  margin-bottom: 0;
+}
 
-  .image-footer {
-    height: 200px;
-    width: 200px;
-  }
+.footer-class {
+  display: flex;
+}
+
+.footer-img {
+  width: 150px;
+  height: 150px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+}
+
+.speaker-section {
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.image-footer {
+  height: 200px;
+  width: 200px;
+}
 
 @media screen and (min-width: 769px) {
   .crypto-text {
@@ -207,16 +210,22 @@
     flex-direction: column;
     align-items: center;
     color: black;
-    background-image: url(./images/pexels-simon-berger-1323550.jpg);
+    background-image: url(./images/bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: cover;
-    height: 60vh;
+    height: 100vh;
     width: 100vw;
+    margin-top: 0;
   }
 
   .about-heading {
     color: orangered;
     margin-bottom: 50px;
+  }
+
+  .submit {
+    color: aliceblue;
+    width: 300px;
   }
 
   .crypto-words {
@@ -241,43 +250,20 @@
   }
 
   .past-ico {
-    background-image: none;
-    background-repeat: no-repeat; 
-  }
-
-  .past-ico1 {
-    background-image: none;
-    background-repeat: no-repeat;
-  }
-
-  .past-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    -webkit-text-fill-color: black;
-    
-  }
-
-  .past-text1 {
     background-image: url(./images/initial-coin-offering-ico-letters-260nw-1854860896.webp);
     background-repeat: no-repeat;
-
-    -webkit-text-fill-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    width: 600px;
   }
 
   .previous-ico {
-    display: fle;
-    gap: 20px;
-    
+    display: flex;
   }
 
   .partners-class {
-    display: none;
+    background-color: black;
+    color: grey;
+    width: 100vw;
   }
 
   .footer-class {
@@ -291,9 +277,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -50px;
+    margin-top: 0;
     background-color: black;
     color: white;
-    margin-top: 30;
+    width: 100vw;
   }
 
   .footer-image {
@@ -303,21 +290,24 @@
   }
 
   .crypto-image {
-    position:;
-    height: 60px;
-    
+    display: block;
+    height: 90px;
+    width: 150px;
+    background-color: aqua;
   }
 
-  .crypto-image:hover{
+  .crypto-image:hover {
     scale: 2;
   }
 
   .navigation {
     display: flex;
     gap: 60px;
-    position:sticky;
-    justify-content: space-betwee;
+    position: sticky;
+    justify-content: flex-end;
+    align-items: center;
   }
+
   .main-prog {
     display: flex;
     flex-direction: row;
@@ -337,22 +327,9 @@
     margin-bottom: 10px;
   }
 
-  .more-button {
-    display: flex;
-    justify-content: center;
-    height: 30px;
-  }
-
   .speaker-line {
     margin-left: 0;
     width: 20px;
-  }
-
-  .button-width {
-    width: 300px;
-    background-color: orangered;
-    border: none;
-    margin-bottom: 10px;
   }
 
   .ico-pic {
@@ -370,20 +347,32 @@
   }
 
   .list-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-container {
+    padding: 2px 16px;
   }
 
   .speaker-text {
-    width: 150px;
+    width: 650px;
   }
 
   .ceo-text {
     color: orangered;
   }
 
-  .program-class {
+  .card {
+    gap: 0;
+    width: 100px;
+    border: 4px white;
+    flex-wrap: wrap;
+  }
+
+  .card-flex {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
   }
 
   .speakers-list {
@@ -398,36 +387,49 @@
   }
 
   .nav-text {
-    margin-left: 600px;
     display: flex;
-    gap:20px;
-    
+    align-items: center;
+    gap: 80px;
   }
 
   .ico-words {
-    width: 300px;
-    
+    margin-left: 100px;
   }
 
   .ico-title {
-    color:rgb(154, 50, 12);
+    margin-left: -100px;
+    color: rgb(154, 50, 12);
     font-size: 60px;
-    
+    width: 1000px;
   }
 
-  .crypto-image {
-    dis
+  .contact {
+    margin-right: 900px;
+  }
+
+  .ico-date {
+    margin-right: 850px;
   }
 
   .full-body {
-    background-image:none;
-  }
-
-  .main-section {
-    display: none;
+    background-image: none;
   }
 
   .more-button {
     display: none;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sponsors-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 0;
   }
 }

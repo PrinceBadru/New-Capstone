@@ -8,25 +8,26 @@
     <title>FIRST CAPSTONE.</title>
 </head>
 <body class="full-body">
-    <img src="./images/Union.png" alt="hamburger-button" class="hamburger" onclick="openpopup()">
+    <img src="./images/Union.png" alt="hamburger-button" class="hamburger" id="openpopup">
     
     <div class="popup" id="popup">
-        <img src="./images/cloasepopup.svg" alt="close button" class="closepopup" onclick="closepopup()">
+        <img src="./images/cloasepopup.svg" alt="close button" class="closepopup" id="closepopup">
         <ul>
-           <li><a href="./about.html">About</a></li> 
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#form">Join</a></li>
-            <li><a href="#contact">Contact us</a></li>
+           <li class="list" ><a href="about.html">About</a></li> 
+            <li class="list"><a href="index.html">Home</a></li>
+            <li class="list"><a href="#form">Join</a></li>
+            <li class="list"><a href="#contact">Contact us</a></li>
         </ul>
        
     </div>
 
+    <a href="./about.html"><img src="./images/240957a3-789c-4e2b-9fc7-34a08b3e9f0c.png" class="crypto-image" alt="crypto-logo" ></a>
     <nav class="navigation"> 
-        <div><img src="./images/240957a3-789c-4e2b-9fc7-34a08b3e9f0c.png" class="crypto-image" alt="crypto-logo" ></div>
+       
         <div class="nav-text">
         <div class="about"> <a href="./about.html"> About</a></div>
-        <div class="home"> <a href="#intro">Home</a></div>
-        <div class="join">Join</div>
+        <div class="home"> <a href="./index.html">Home</a></div>
+        <div class="join"><a href="#form">Join</a></div>
         <div class="contact" > <a href="#contact">Contact us </a></div>
         </div>
     </nav>
@@ -37,19 +38,41 @@
     
     <h1 class="ico-title">NEW CRYPTO COIN 2022 INITIAL COIN OFFERING</h1>
     <div class="ico-words"> The crypto currency that has come to create financial freedom and be the foundation of the future of finance,all over the world. The ico will be taking place on December .</div>
-    <h2>2022.12.01(TUE)~30(FRI)</h2>
-    <div id="contact">@ www.fakenewcryptocoin.com</div>
+    <h2 class="ico-date">2022.12.01(TUE)~30(FRI)</h2>
+    <div id="contact" class="contact">@ www.fakenewcryptocoin.com</div>
     </section>
 
     <section class="main-section">
-        <ul>
+        
     <h2 class="program-class">Main Program</h2>
-    <div class="main-prog">
-    <li class="program-li background"> <span> <img src="./images/download.jpeg" alt="whitepaper image" class="program-img"> </span> Release of official complete white paper</li>
-    <li class="program-li background1"> <span> <img src="./images/download.png" alt="explanation of image" class="program-img"> </span>Live explanation of the white paper content</li>
-    <li class="program-li background2"> <span> <img src="./images/download (1).jpeg" alt="Roadmap image" class="program-img"></span>Release of official Roadmap</li>
-    </div>
-        </ul>
+        
+        <div class="card-flex">
+            
+      <div class="card">
+        <img src="./images/download.jpeg" alt="whitepaper image" class="program-img">
+        <div class="card-container">
+          <h4><b>Release of official complete white paper</b></h4>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <img src="./images/download.png" alt="explanation" class="program-img">
+        <div class="card-container">
+          <h4><b>Explanation of whitepaper</b></h4>
+        </div>
+      </div>
+      
+        <div class="card">
+            <img src="./images/download (1).jpeg" alt="roadmap" class="program-img">
+            <div class="card-container">
+              <h4><b>official roadmap</b></h4>
+            </div>
+        
+        </div>
+      </div>
+        </div>
+        
         <form action="https://formspree.io/f/xbjbawkn" method="post" id="form">
             <input type="text" name="Name" maxlength="30" placeholder="Name">
     
@@ -62,7 +85,7 @@
     </section>
 
     
-<!-- 
+
     <section class="speaker-section">
         
         <ul class="speakers-list">
@@ -70,60 +93,8 @@
     <hr class="speaker-line1">
 
     <div class="list-container">
-    <li class="speaker-li">
-       <div><img src="./images/X7uaeskx_400x400.jpg" alt="Speaker image" class="speaker-img"></div>
-       <div><h2>Badru Ndawula.</h2> 
-        <hr class="speaker-line1">
-        <span class="ceo-text"> Executive Officer of New Crypto Coin.</span><br><hr class="button-width">
-        <div class="speaker-text">Controls and monitors all operations that take place at New crypto coin.</div>
-    </div>
-    </li>
-    <li class="speaker-li">
-        <div><img src="./images/download (5).jpeg" alt="Speaker image" class="speaker-img"></div>
-        <div><h2>Kevin Aboamama.</h2> 
-         <hr class="speaker-line1">
-         <span class="ceo-text"> Cheif Technological Officer of New Crypto Coin.</span><br><hr class="button-width">
-         <div class="speaker-text">Executes technological changes  at New crypto coin.</div>
-     </div>
-     </li>
-    </div>
-
-    <div class="list-container">
-        <li class="speaker-li">
-            <div><img src="./images/download (5).jpeg" alt="Speaker image" class="speaker-img"></div>
-            <div><h2>Tyres Adams.</h2> 
-                <hr class="speaker-line1">
-             <span class="ceo-text"> Deputy Cheif Executive Officer.</span><br><hr class="button-width">
-             <div class="speaker-text">Helps Cheif Executive Officer carry out additional activities at Newcryptocoin.</div>
-         </div>
-         </li>
-         <li class="speaker-li">
-             <div><img src="./images/download (5).jpeg" alt="Speaker image" class="speaker-img"></div>
-             <div><h2>Ndeezi Murife.</h2>
-                <hr class="speaker-line1"> 
-              <span class="ceo-text"> Head of developers  at New Crypto Coin.</span><br><hr class="button-width">
-              <div class="speaker-text">Manages and instructs developers on changes needed at New crypto coin.</div>
-          </div>
-          </li>
-    </div>
-
-    <div class="list-container">
-        <li class="speaker-li">
-            <div><img src="./images/download (5).jpeg" alt="Speaker image" class="speaker-img"></div>
-            <div><h2>Mark Spurs.</h2> 
-             <hr class="speaker-line1">
-             <span class="ceo-text">  Cheif Marketing Officer.</span><br><hr class="button-width">
-             <div class="speaker-text">Carries out all marketing activities at New crypto coin.</div>
-         </div>
-         </li>
-         <li class="speaker-li">
-             <div><img src="./images/download (5).jpeg" alt="Speaker image" class="speaker-img"></div>
-             <div><h2>Kevin Leo.</h2> 
-                <hr class="speaker-line1">
-              <span class="ceo-text"> Head of developers  at New Crypto Coin.</span><br><hr class="button-width">
-              <div class="speaker-text">Manages and instructs developers on changes needed at New crypto coin.</div>
-          </div>
-          </li>
+    
+       
     </div>
 
     </div>
@@ -131,15 +102,27 @@
     
     <div class="more-button"><button class="more-width">MORE</button></div>
     
-    </section> -->
+    </section> 
 
     <section>
+        <div class="partners-class">
+            <h3 class="partners">Partners</h3>
+            <hr class="speaker-line1" />
+            <ul class="sponsors-list">
+              <li>Mozilla</li>
+              <li>Google</li>
+              <li>NAVER</li>
+              <li>daumkakao</li>
+              <li>airbnb</li>
+            </ul>
+          </div>
+
         <footer class="footer1">
         <img src="./images/240957a3-789c-4e2b-9fc7-34a08b3e9f0c.png" class="footer-image"alt="">
         <div>2020 crypto commons reserved.Some rights reserved.</div>
         </footer>
 
     </section>
-<script type="text/javascript" src="./main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
