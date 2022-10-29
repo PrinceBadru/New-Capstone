@@ -7,6 +7,10 @@ function openpopup() {
 function closepopup() {
   popup.classList.remove('openpopup');
 }
+
+document.getElementById('openpopup').addEventListener('click', openpopup);
+document.getElementById('closepopup').addEventListener('click', closepopup);
+
 // dynamic speakers
 
 const mySpeakerArray = [
