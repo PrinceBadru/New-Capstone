@@ -62,8 +62,7 @@
 }
 
 .main-section {
-  background-image: url(./images/pexels-photo-844124.jpeg);
-  background-repeat: no-repeat;
+  background-color: #282B32;
   width: 100vw;
   color: aliceblue;
   font-family: sans-serif;
@@ -211,9 +210,10 @@
     flex-direction: column;
     align-items: center;
     color: black;
-    background-image: url(./images/pexels-simon-berger-1323550.jpg);
+    background-image: url(./images/bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 100vh;
     width: 100vw;
     margin-top: 0;
   }
@@ -351,17 +351,28 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .card-container {
+    padding: 2px 16px;
+  }
+
   .speaker-text {
-    width: 150px;
+    width: 650px;
   }
 
   .ceo-text {
     color: orangered;
   }
 
-  .program-class {
+  .card {
+    gap:0px;
+    width: 100px;
+    border: 4px white;
+    flex-wrap: wrap ;
+  }
+
+  .card-flex {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
   }
 
   .speakers-list {
@@ -377,17 +388,29 @@
 
   .nav-text {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 80px;
   }
 
   .ico-words {
-    width: 300px;
+    margin-left: 100px
+    
   }
 
   .ico-title {
+
+    margin-left: -100px;
     color: rgb(154, 50, 12);
     font-size: 60px;
+    width:1000px
+  }
+
+  .contact {
+    margin-right: 900px;
+  }
+
+  .ico-date {
+    margin-right: 850px;
   }
 
   .full-body {
